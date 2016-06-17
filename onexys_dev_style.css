@@ -602,6 +602,17 @@
 	width:400px;
 	padding-bottom: 10px;
 }
+
+#explore .watch_video {
+	width: 395px !important;
+	margin: 0px;
+	margin-right: 5px;
+}
+#explore .onexys_thumbnail{
+	width: 395px;
+	margin: 0;
+	margin-right: 10px;
+}
 .onexys_center{
 	display: block;
 	margin: 0px auto;
@@ -624,6 +635,7 @@
 	width: 300px;
 	margin: 10px;
 }
+
 .watch_video p{
 	margin: 10px 0px 0px;
 }
