@@ -490,26 +490,37 @@
 }
 #background_building_outline{
 	position: absolute;
-	left: 45px;
+	left: 50px;
 	top: 35px;
 	width: 12px;
-	height: 200px;
+	height: 350px;
 	background-color: rgb(31, 117, 208);
-	z-index: -3;
+	z-index: -1;
+	padding-right: -30px;
 }
 #background_building_outline2{
-	position: absolute;
-	left: 8px;
-	top: 30px;
-	width: 48px;
+	position: relative;
+	float: left;
+	left: 2px;
+	top: 23px;
+	width: 70px;
 	height: 120px;
 	background-color: rgb(31, 117, 208);
-	z-index: -2;
-	border-radius: 8px;
+	z-index: -3;
+	border-radius: 8px 8px 0px 8px;
+}
+#bbo_white{
+	height: 100%;
+	right: 0;
+	margin: 0;
+	position: absolute;
+	top: 0;
+	background-color: white;
+	width: 2px;
 }
 .background_building {
 	width: calc(100% - 60px);
-
+	max-width: none !important;
 	z-index: -1;
 
 	position: absolute;
@@ -544,6 +555,7 @@
 .title {
 	display: inline-block;
 	padding: 10px 20px;
+	margin-left: -58px;
 }
 
 .title p {
@@ -576,15 +588,19 @@
 	color: rgb(31, 117, 208);
 }
 .building_descriptor {
+	float: none !important;
+	position: absolute;
+	left: 790px;
+	top: 0px;
 	width:220px;
 	padding-bottom: 0px;
 }
 #overview {
-	margin-top:70px;
+	margin-top:170px;
 	width:300px;
 }
 #watch{
-	margin-top:350px;i
+	margin-top:450px;i
 	width:650px;
 }
 #practice {
@@ -604,9 +620,9 @@
 }
 
 #explore .watch_video {
-	width: 395px !important;
+	width: 400px !important;
 	margin: 0px;
-	margin-right: 5px;
+	margin-right: 0px;
 }
 #explore .onexys_thumbnail{
 	width: 395px;
