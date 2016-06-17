@@ -9,7 +9,7 @@
 <!-- COPY FROM BELOW -->
 <div class="onexys_styling">
 	<div class="left">
-		<div class="standard_box left" id="progress">
+		<div class="standard_home_box left" id="progress">
 			<h2>My Progress So Far</h2>
 			<a class="progress_box single_line complete_1" href="#">
 				Pre-Test
@@ -20,7 +20,7 @@
 			</div>
 			<br /><div class="clear"></div>
 
-			<a class="progress_box complete_2" href="https://yale2.instructure.com/courses/470/pages/linear-functions">
+			<a class="progress_box lin complete_2" href="https://yale2.instructure.com/courses/470/pages/linear-functions">
 				Linear<br/>Functions
 			</a>
 			<img class="onexys_checkbox" src="https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/checkmarks/check_blue_yes.png"/>
@@ -99,15 +99,17 @@
 	</div>
 
 	<div class="left">
-		<div id="points" class="standard_box left" >
+		<div id="points" class="standard_home_box left" >
 			<h2>My Points</h2>
 			<p id="point_count">1000</p>
-			<div id="flag">
-				<a href="#"><p>Daily</p><p>Yalie</p></a>
 			</div>
-		</div>
+			<div id="flag">
+				<a href="#"><p id="daily">Daily</p><p id="yalie">Yalie</p></a>
+				<img id="daily_yalie" src="DY_Flag.svg">
+			</div>
 
-		<div id="leaderboard" class="standard_box left" >
+		<div id="leaderboard" class="standard_home_box left" >
+			<div id="point_shadow"></div>
 			<h2>Leaderboard</h2>
 			<table>
 			<thead><tr>
@@ -119,7 +121,7 @@
 			</table>
 		</div>
 
-		<div id="recent_badges" class="standard_box left" >
+		<div id="recent_badges" class="standard_home_box left" >
 			<h2>Recent Badges</h2>
 			<div class="onexys_badge badge1 completed">
 				<div class="badge_portrait">
@@ -169,11 +171,11 @@
 				</div>
 			</div>
 			<br /><div class="clear"></div>
-			<p>Click <a href="#">here</a> to see all your badges.</p>
+			<p id="badges_link_sentence">Click <a href="#">here</a> to see all your badges.</p>
 		</div>
 
 		<br /><div class="clear"></div>
-		<div id="updates" class="standard_box left" >
+		<div id="updates" class="standard_home_box left" >
 			<h2>Updates</h2>
 			<div class="entry clear">
 				<p class="entry_header">
@@ -224,7 +226,7 @@ content questions!
 			</div>
 		</div>
 
-		<div id="featured" class="standard_box left" >
+		<div id="featured" class="standard_home_box left" >
 			<h2>This Week's Featured Videos</h2>
 
 				<div class="onexys_video">

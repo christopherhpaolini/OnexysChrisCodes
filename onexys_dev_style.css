@@ -11,8 +11,8 @@
 .onexys_styling {
 	font-family: Helvetica;
 	color: rgb(31, 117, 208);
-	font-size: 12px;
-	line-height: normal !important;
+	font-size: 13px;
+	line-height: 18px;
 
 	min-width: 1100px;
 }
@@ -38,7 +38,8 @@
 }
 .onexys_thumbnail {
 	width: 300px;
-	border: 1px solid rgb(31, 117, 208);
+	border: 2px solid rgb(31, 117, 208);
+	border-radius: 3px;
 }
 
 .onexys_video:hover .playbutton {
@@ -63,7 +64,7 @@
 	border-radius: 3px;
 
 	text-align: center;
-	font-weight: bold;
+	font-weight: normal;
 	color: #efefef !important;
 }
 
@@ -81,33 +82,90 @@
 
 	background-color: #fff;
 
-	border: 2px solid rgb(31, 117, 208);
-	border-radius: 5px;
-
-	box-shadow: -7px 7px 0px rgb(31, 117, 208);
+	border: 3.25px solid rgb(31, 117, 208);
+	border-radius: 8px;
 }
+
+.standard_box:before {
+	content: "";
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	z-index: -1;
+	box-shadow: -10px 10px 0px rgb(31, 117, 208);
+	border-radius: 8px;
+}
+
 .standard_box h2 {
-	margin: 5px 0px !important;
-	font-weight: normal;
+	margin: 2px 0px !important;
+	font-weight: bold;
 	line-height: normal !important;
 	font-size: 16px;
 }
 .standard_box p {
 	margin: 5px 3px 10px;
 }
+.standard_home_box {
+	/* margin: top right bottom left; */
+	margin: 10px;
+	padding: 10px;
 
+	background-color: #fff;
+
+	border: 3.25px solid rgb(31, 117, 208);
+	box-shadow: -10px 10px 0px rgb(31, 117, 208);
+	border-radius: 8px;
+}
+.standard_home_box h2 {
+	margin: 2px 0px !important;
+	font-weight: bold;
+	line-height: normal !important;
+	font-size: 16px;
+}
+.standard_home_box p {
+	margin: 5px 3px 10px;
+}
+
+.standard_mod_box {
+	/* margin: top right bottom left; */
+	margin: 10px;
+	padding: 10px;
+
+	background-color: #fff;
+
+	border: 3.25px solid rgb(31, 117, 208);
+	border-radius: 8px;
+}
 
 #progress {
-	width: 250px;
+	width: 254px;
+	padding-right: 3px;
+	padding-top: 5px;
+	padding-left: 6px;
+}
+#progress a{
+	display: inline-block;
+  vertical-align: middle;
+  line-height: normal; 
+}
+#progress h2{
+	margin-top: 2px !important;
+	padding-bottom: 5px;
+	font-weight: bold;
+	line-height: normal !important;
+	font-size: 18px;
+	padding-left: 5px;
 }
 .progress_box {
 	float: left;
 	width:150px;
 	padding-top: 10px;
 	height: 40px;
-	margin: 5px 0px;
-
-	border: 1px solid #444;
+	margin: 5px 4px;
+	padding-left: 2px;
+	border: 2px solid rgb(31, 117, 208);
 	border-radius: 5px;
 
 	background-size: cover;
@@ -132,113 +190,163 @@
 
 	/* http://stackoverflow.com/a/25799339/3869285 */
 	text-align: center;
-	text-shadow: 1px 0 0 #444, -1px 0 0 #444, 0 1px 0 #444, 0 -1px 0 #444, 1px 1px #444, -1px -1px 0 #444, 1px -1px 0 #444, -1px 1px 0 #444;
+	text-shadow: 1px 0 0 rgb(31, 117, 208), -1px 0 0 rgb(31, 117, 208), 0 1px 0 rgb(31, 117, 208), 0 -1px 0 rgb(31, 117, 208), 1px 1px rgb(31, 117, 208), -1px -1px 0 rgb(31, 117, 208), 1px -1px 0 rgb(31, 117, 208), -1px 1px 0 rgb(31, 117, 208);
 
 	font-weight: bold;
 	font-size: 12px;
 	color: white !important;
+
+}
+.lin{
+	margin-top: 5px;
 }
 .progress_box.single_line {
 	padding-top: 18px;
 	height: 32px;
+	padding-bottom: -10px;
 }
 #progress_labels {
-	margin: 40px 5px 0px;
+	margin-top: 36.5px;
+	margin-left: 2px;
 	float: left;
-	border-bottom: 1px solid rgb(31, 117, 208);
+	padding: 0;
+	background-color: rgb(31, 117, 208) !important;
+	border: 2px solid rgb(31, 117, 208);
+	border-radius: 8px;
 }
+
 #progress_labels p {
+	color: white;
+	display: inline-block;
+  vertical-align: middle;
+  line-height: normal; 
 	float: left;
-	margin-left: 0px;
-	margin-right: 6px;
+	margin-left: 6px;
+	margin-right: 5px;
 	margin-bottom: 3px;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 9px;
+}
+#progress_labels p:nth-of-type(2){
+	margin-left: 5px;
 }
 .onexys_checkbox {
 	float: left;
-	padding-left: 0px;
-	margin-left: 0px;
+	padding-left: 4px;
+	margin-left: -5px;
+	margin-right: 0px;
 	margin-top: 10px;
-	width: 40px;
-	height: 40px;
+	width: 45px;
+	height: 45px;
 }
 
 #points {
-	width: 100px;
-	height: 75px;
-	margin-top: 20px;
+	width: 110px;
+	height: 95px;
+	margin-top: 30px;
 
 	position: relative;
-	margin-left: -7px;
-	left: 27px;
+	margin-left: -12px;
+	left: 22px;
 	z-index: 100;
 
-	padding: 0px 4px;
+	padding: 0px 6px;
 
-	border-radius: 5px 0px 0px 5px;
+	border-radius: 10px 10px 0px 10px;
+	box-shadow: -0px 0px 0px rgb(31, 117, 208)
 }
 #points h2 {
-	margin-left: 10px !important;
+	margin-top: 8px !important;
+	padding-bottom: 5px;
+	padding-left: 5px;
+	font-weight: bold;
+	line-height: normal !important;
+	font-size: 18px;
 }
 #point_count {
-	font-size: 36px;
+	padding-right: 10px;
+	width: 100%;
+	box-sizing: border-box;
+	font-size: 50px;
+	letter-spacing: -1.5px;
 	font-weight: bold; 
 	color: rgb(254, 202, 10);
-	margin: 0px;
+	margin-top: 18.0px;
 	text-align: center;
 }
 /* https://css-tricks.com/examples/ShapesOfCSS/ */
 #flag {
   width: 92px;
   height: 65px;
-  padding-top: 15px;
-  position: relative;
-  bottom: -8px;
-  right: 5px;
-  background: rgb(254, 202, 10);
+  padding-top: 13px;
+  position: absolute;
+  top: 110px;
+  left: 312px;
+  z-index: 90;
   font-size: 11px;
   letter-spacing: 0.2em;
   text-align: center;
   text-transform: uppercase;
-
-  border-left: 5px solid rgb(31,117,208);
 }
-#flag:after {
-  content: "";
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  width: 0;
-  height: 0;
-  border-bottom: 13px solid #fff;
-  border-left: 46px solid transparent;
-  border-right: 46px solid transparent;
+#daily_yalie{
+	position: absolute;
+	width: 92px;
+	bottom: -27px;
+	z-index: -100;
+	left: .5px;
 }
 #flag p {
+	margin-left: 6px;
 	color: rgb(31,117,208);
-	margin: 0px;
 	font-weight: bold;
 }
 #flag p:nth-of-type(2) {
 	font-size: 20px;
 }
-
-#leaderboard {
-	width: 200px;
+#daily{
 	margin-top: 20px;
+}
+#yalie{
+	margin-top: -2px;
+	line-height: 0px;
+}
+#leaderboard {
+	margin-left: -3px;
+	width: 220px;
+	margin-top: 42px;
 	padding-left: 0px !important;
 	padding-right: 0px !important;
+	padding-top: 0;
+	height: 125px;
 }
 #leaderboard h2 {
-	margin-left: 10px !important;
+	margin-top: 5px !important;
+	padding-left: 18px;
+	padding-bottom: 5px;
+	font-weight: bold;
+	line-height: normal !important;
+	font-size: 18px;
+}
+#point_shadow{
+	position: absolute;
+	left: 300px;
+	top: 47px;
+	width: 120px;
+	height: 102px;
+	border-radius: 8px 8px 0px 8px;
+	background-color: rgb(31,117,208)
 }
 #leaderboard table{
+
+	margin-top: -8px;
   margin-left: 0px !important;
   
   border-collapse: collapse;
   text-align: center;
   color: rgb(31, 117, 208);
   font-weight: bold;
-  font-size: 14px;
+  font-size: 12px;
   line-height: 20px;
 }
 #leaderboard tbody {
@@ -248,10 +356,14 @@
   background: rgb(213, 224, 230); 
 }
 #leaderboard th {
-  padding: 0px 10px;
+  padding-left: 18px;
   
 
   font-weight: normal;
+}
+#leaderboard td {
+  padding-left: 18px;
+  
 }
 #leaderboard thead th:nth-of-type(1) {
   width: 50px;
@@ -268,8 +380,19 @@
 }
 
 #recent_badges {
-	width: 300px;
-	height: 160px;
+	width: 273px;
+	height: 152.5px;
+	padding-top: 5px;
+}
+#recent_badges h2{
+	margin-top: 2px !important;
+	padding-bottom: 5px;
+	font-weight: bold;
+	line-height: normal !important;
+	font-size: 18px;
+}
+#badges_link_sentence{
+	margin-top: 3px;
 }
 .leftmost {
 	margin-left: 45px !important;
@@ -286,26 +409,41 @@
 }
 
 #updates {
-	width: 370px;
+	width: 390px;
+}
+#updates h2 {
+	font-size: 18px;
 }
 .entry_header {
 	float: left;
-	width: 70px;
+	width: 90px;
 }
 .entry_text {
 	float: left;
-	width: 260px;
+	width: 285px;
 	margin-bottom: 20px;
 }
 
 #featured {
-	width: 230px;
+	width: 260px;
+	padding-left: 5px;
+	padding-right: 7px;
+	padding-bottom:0px; 
+}
+#featured p{
+	
+	padding-left: 5px; 
+}
+#featured h2{
+	padding-left: 8px;
+	font-size: 18px;
 }
 #featured .onexys_video {
-	margin: 0px auto 10px;
+	margin: 10px 10px 10px 10px;
+
 }
 #featured .onexys_thumbnail {
-	width: 200px;
+	width: 100%;
 }
 
 
@@ -347,18 +485,35 @@
 	min-width: 80px;
 	position: absolute;
 	left: -20px;
-	top: -20px;
-	padding: 4px 10px
+	top: -35px;
+	padding: 4px 7px
 }
-
-
+#background_building_outline{
+	position: absolute;
+	left: 45px;
+	top: 35px;
+	width: 12px;
+	height: 200px;
+	background-color: rgb(31, 117, 208);
+	z-index: -3;
+}
+#background_building_outline2{
+	position: absolute;
+	left: 8px;
+	top: 30px;
+	width: 48px;
+	height: 120px;
+	background-color: rgb(31, 117, 208);
+	z-index: -2;
+	border-radius: 8px;
+}
 .background_building {
-	width: 100%;
+	width: calc(100% - 60px);
 
 	z-index: -1;
 
 	position: absolute;
-	left: 60px;
+	right: 0px;
 	top: 50px;
 /*
 	display: block;
@@ -366,57 +521,97 @@
 	-webkit-box-shadow: -7px 7px 0px rgb(31, 117, 208);
 	-moz-box-shadow: -7px 7px 0px rgb(31, 117, 208);
 */
+}
+.standard_title_box {
+	/* margin: top right bottom left; */
+	margin: 10px;
+	padding: 10px;
 
-	-webkit-mask-image:-webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,1)), to(rgba(0,0,0,0)));
+	background-color: #fff;
 
+	border: 3.25px solid rgb(31, 117, 208);
+	border-radius: 8px;
+}
+.standard_title_box h2 {
+	margin: 2px 0px !important;
+	font-weight: bold;
+	line-height: normal !important;
+	font-size: 16px;
+}
+.standard_title_box p {
+	margin: 5px 3px 10px;
 }
 .title {
 	display: inline-block;
 	padding: 10px 20px;
 }
+
 .title p {
-	font-size: 22px;
+	font-size: 30px;
 	font-weight: bold;
-	margin: 0px;
+	margin-top: 10px;
+	margin-left: -5px;
 	color: rgb(31, 117, 208);
 }
 .title h1 {
-	font-size: 38px;
-	margin: 0px;
+	font-size: 57px;
+	margin-top: -2px;
+	margin-bottom: -5px;
+	margin-left: -8px;
+	padding: 0;
+	letter-spacing: -1px;
 	font-weight: bold; 
 	color: rgb(254, 202, 10);
 	text-transform: uppercase;
+	line-height: 65px;
 }
 .quicklinks a{
 	display: inline-block;
-	margin: 3px 0px;
+	margin-left: 5px;
+	margin-right: 5px;
+	margin-bottom: 3px;
+	margin-top: 3px;
 	font-size: 11pt;
 	font-weight: bold;
 	color: rgb(31, 117, 208);
 }
 .building_descriptor {
-	width:300px;
+	width:220px;
+	padding-bottom: 0px;
 }
-
 #overview {
-	margin-top:50px;
+	margin-top:70px;
 	width:300px;
 }
 #watch{
-	margin-top:150px;
+	margin-top:350px;i
 	width:650px;
 }
 #practice {
-	margin-top: 30px;
+	margin-top: 40px;
 	width:300px;
 }
 #apply {
-	margin-top: 30px;
+	margin-top: 40px;
 	width:400px;
 }
 #explore {
-	margin-top: 30px;
-	width:600px;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-top: 40px;
+	width:400px;
+	padding-bottom: 10px;
+}
+.onexys_center{
+	display: block;
+	margin: 0px auto;
+}
+.explore_main{
+	width: 100%;
+	position: relative;
+	float:left;
+	padding-left: 0px;
+	box-sizing: border-box;
 }
 
 #practice .onexys_button{
@@ -437,11 +632,13 @@
 	margin: 0px 10px 10px;
 	width: 70px;
 	position: relative;
+	text-align: left;
+	text-indent: 10px;
 }
 .apply_button img{
 	position: absolute;
-	top: -10px;
-	left: -10px;
+	top: -12px;
+	left: -13px;
 	width: 35px;
 }
 .apply_description {
@@ -458,34 +655,46 @@
 * Badges
 ****/
 
-.badge_title {
-	display: inline-block;
-	margin-bottom: 50px;
+.badge_title{
+	width: 378px;
+	height: auto;
+	border: 5px solid rgb(31, 117, 208);
+	border-radius: 20px 0px 20px 20px;
+	box-shadow: -7px 7px 0px rgb(31, 117, 208);
 }
-.badge_title p {
-	font-size: 30px;
-	font-weight: bold;
-	margin: 10px;
-	/* color: rgb(33, 148, 210); */
-	color: rgb(31, 117, 208);
+.badge_title h1{
+	font-size: 94px;
+	margin-top: 30px;
+	margin-left: -12px;
+	margin-bottom: 7px;
 }
-.badge_title h1 {
-	font-size: 70px;
-	font-weight: bold; 
-	color: rgb(254, 202, 10);
-	margin: 0px 10px;
-	margin-bottom: 10px;
-	text-transform: uppercase;
+.badge_title p{
+	font-size: 40px;
 }
-.badge_title_text {
-	margin-left: 20px;
-	width: 400px;
+.badge_title_text{
+	font-size: 20px;
+	width: 320px;
+	line-height: 26px;
+	margin-left: 220px;
 }
-.badge_title_text p{
-	font-size: 14pt;
+#what_are{
+	position: absolute;
+	top: 10px;
+	left: 400px;
+	font-size: 15px;
+}
+#badgeline{
+	position: absolute;
+	width: 3px;
+	border-radius: 1.5px;
+	background-color: rgb(31, 117, 208);
+	height: 100%;
+	right: 0;
+	top: 0;
 }
 #badge_display {
 	width: 1000px;
+	margin-top: 50px;
 }
 .onexys_badge {
 	margin: 30px 20px;
@@ -592,9 +801,9 @@
 	margin: 0px;
 }
 #recent_badges .badge_portrait {
-	margin: 0px 7px;
-	width: 80px;
-	height: 100px;
+	margin: 5px 7px;
+	width: 70px;
+	height: 87.5px;
 }
 #recent_badges .completed .badge_portrait {
 	box-shadow: 0px 0px 5px 3px rgb(255, 242, 23);
