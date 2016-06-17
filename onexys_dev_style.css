@@ -1,0 +1,798 @@
+#right-side .events_list {
+    display: none !important;
+}
+.events_list.recent_feedback {
+    display: none !important;
+}
+.page-title {
+	display: none !important;
+}
+
+.onexys_styling {
+	font-family: Helvetica;
+	color: rgb(31, 117, 208);
+	font-size: 12px;
+	line-height: normal !important;
+
+	min-width: 1100px;
+}
+
+.onexys_styling a {
+	color: rgb(37, 63, 142);
+	text-decoration: none;
+}
+
+.clear {
+	clear: both;
+}
+.left {
+	float: left;
+}
+.right {
+	float: right;
+}
+
+.onexys_video {
+	display: inline-block;
+	position: relative;
+}
+.onexys_thumbnail {
+	width: 300px;
+	border: 1px solid rgb(31, 117, 208);
+}
+
+.onexys_video:hover .playbutton {
+    background-color: rgba(0, 173, 239, 0.9);
+}
+.onexys_playbutton{
+	height: 80px;
+	position: absolute;
+    top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+}
+
+.onexys_button {
+	display: inline-block;
+	padding: 10px 20px; 
+
+	background-color: rgb(31, 117, 208);
+	border: 2px solid rgb(198, 234, 250);
+	border-radius: 3px;
+
+	text-align: center;
+	font-weight: bold;
+	color: #efefef !important;
+}
+
+/***
+* Home Page
+***/
+
+.onexys_column {
+	float:left;
+}
+.standard_box {
+	/* margin: top right bottom left; */
+	margin: 10px;
+	padding: 10px;
+
+	background-color: #fff;
+
+	border: 2px solid rgb(31, 117, 208);
+	border-radius: 5px;
+
+	box-shadow: -7px 7px 0px rgb(31, 117, 208);
+}
+.standard_box h2 {
+	margin: 5px 0px !important;
+	font-weight: normal;
+	line-height: normal !important;
+	font-size: 16px;
+}
+.standard_box p {
+	margin: 5px 3px 10px;
+}
+
+
+#progress {
+	width: 250px;
+}
+.progress_box {
+	float: left;
+	width:150px;
+	padding-top: 10px;
+	height: 40px;
+	margin: 5px 0px;
+
+	border: 1px solid #444;
+	border-radius: 5px;
+
+	background-size: cover;
+	
+	/*filter: grayscale(90%);
+	-webkit-filter: grayscale(90%);
+	background-color: #bbb;*/
+	
+	/* http://codepen.io/anon/pen/lbfeC */
+
+	/*
+	background: 
+    /* top, transparent red, faked with gradient /
+    linear-gradient(
+      rgba(255, 0, 0, 0.45), 
+      rgba(255, 0, 0, 0.45)
+    ),
+    /* bottom, image /
+    url(./images/beinecke.png);
+    */
+
+
+	/* http://stackoverflow.com/a/25799339/3869285 */
+	text-align: center;
+	text-shadow: 1px 0 0 #444, -1px 0 0 #444, 0 1px 0 #444, 0 -1px 0 #444, 1px 1px #444, -1px -1px 0 #444, 1px -1px 0 #444, -1px 1px 0 #444;
+
+	font-weight: bold;
+	font-size: 12px;
+	color: white !important;
+}
+.progress_box.single_line {
+	padding-top: 18px;
+	height: 32px;
+}
+#progress_labels {
+	margin: 40px 5px 0px;
+	float: left;
+	border-bottom: 1px solid rgb(31, 117, 208);
+}
+#progress_labels p {
+	float: left;
+	margin-left: 0px;
+	margin-right: 6px;
+	margin-bottom: 3px;
+}
+.onexys_checkbox {
+	float: left;
+	padding-left: 0px;
+	margin-left: 0px;
+	margin-top: 10px;
+	width: 40px;
+	height: 40px;
+}
+
+#points {
+	width: 100px;
+	height: 75px;
+	margin-top: 20px;
+
+	position: relative;
+	margin-left: -7px;
+	left: 27px;
+	z-index: 100;
+
+	padding: 0px 4px;
+
+	border-radius: 5px 0px 0px 5px;
+}
+#points h2 {
+	margin-left: 10px !important;
+}
+#point_count {
+	font-size: 36px;
+	font-weight: bold; 
+	color: rgb(254, 202, 10);
+	margin: 0px;
+	text-align: center;
+}
+/* https://css-tricks.com/examples/ShapesOfCSS/ */
+#flag {
+  width: 92px;
+  height: 65px;
+  padding-top: 15px;
+  position: relative;
+  bottom: -8px;
+  right: 5px;
+  background: rgb(254, 202, 10);
+  font-size: 11px;
+  letter-spacing: 0.2em;
+  text-align: center;
+  text-transform: uppercase;
+
+  border-left: 5px solid rgb(31,117,208);
+}
+#flag:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 0;
+  border-bottom: 13px solid #fff;
+  border-left: 46px solid transparent;
+  border-right: 46px solid transparent;
+}
+#flag p {
+	color: rgb(31,117,208);
+	margin: 0px;
+	font-weight: bold;
+}
+#flag p:nth-of-type(2) {
+	font-size: 20px;
+}
+
+#leaderboard {
+	width: 200px;
+	margin-top: 20px;
+	padding-left: 0px !important;
+	padding-right: 0px !important;
+}
+#leaderboard h2 {
+	margin-left: 10px !important;
+}
+#leaderboard table{
+  margin-left: 0px !important;
+  
+  border-collapse: collapse;
+  text-align: center;
+  color: rgb(31, 117, 208);
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 20px;
+}
+#leaderboard tbody {
+  border-radius: 5px;
+}
+#leaderboard tbody:hover tr:hover td {
+  background: rgb(213, 224, 230); 
+}
+#leaderboard th {
+  padding: 0px 10px;
+  
+
+  font-weight: normal;
+}
+#leaderboard thead th:nth-of-type(1) {
+  width: 50px;
+}
+#leaderboard thead th:nth-of-type(2) {
+  width: 250px;
+}
+#leaderboard thead th:nth-of-type(3) {
+  width: 200px;
+  border-right: none !important;
+}
+#leaderboard tr:nth-child(odd) td {
+  background: rgb(233, 244, 250);  
+}
+
+#recent_badges {
+	width: 300px;
+	height: 160px;
+}
+.leftmost {
+	margin-left: 45px !important;
+}
+.recent_badge {
+	float: left;
+	margin: 5px 5px;
+
+	width: 60px;
+	height: 90px;
+
+	border: 2px solid rgb(254, 202, 10);
+	border-radius: 5px; 
+}
+
+#updates {
+	width: 370px;
+}
+.entry_header {
+	float: left;
+	width: 70px;
+}
+.entry_text {
+	float: left;
+	width: 260px;
+	margin-bottom: 20px;
+}
+
+#featured {
+	width: 230px;
+}
+#featured .onexys_video {
+	margin: 0px auto 10px;
+}
+#featured .onexys_thumbnail {
+	width: 200px;
+}
+
+
+.default_1  { background-image: url('https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/progress_bar/battell_0.png'); }
+.default_2  { background-image: url('https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/progress_bar/beinecke_0.png'); }
+.default_3  { background-image: url('https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/progress_bar/bowl_0.png'); }
+.default_4  { background-image: url('https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/progress_bar/dwight_0.png'); }
+.default_5  { background-image: url('https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/progress_bar/green_0.png'); }
+.default_6  { background-image: url('https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/progress_bar/harkness_0.png'); }
+.default_7  { background-image: url('https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/progress_bar/ingalls_0.png'); }
+.default_8  { background-image: url('https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/progress_bar/kroon_0.png'); }
+.default_9  { background-image: url('https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/progress_bar/linsly_0.png'); }
+.default_10 { background-image: url('https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/progress_bar/phelps_0.png'); }
+.default_11 { background-image: url('https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/progress_bar/schwarzman_0.png'); }
+.default_12 { background-image: url('https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/progress_bar/sterling_0.png'); }
+
+.complete_1  { background-image: url('https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/progress_bar/battell_1.png'); }
+.complete_2  { background-image: url('https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/progress_bar/beinecke_1.png'); }
+.complete_3  { background-image: url('https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/progress_bar/bowl_1.png'); }
+.complete_4  { background-image: url('https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/progress_bar/dwight_1.png'); }
+.complete_5  { background-image: url('https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/progress_bar/green_1.png'); }
+.complete_6  { background-image: url('https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/progress_bar/harkness_1.png'); }
+.complete_7  { background-image: url('https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/progress_bar/ingalls_1.png'); }
+.complete_8  { background-image: url('https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/progress_bar/kroon_1.png'); }
+.complete_9  { background-image: url('https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/progress_bar/linsly_1.png'); }
+.complete_10 { background-image: url('https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/progress_bar/phelps_1.png'); }
+.complete_11 { background-image: url('https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/progress_bar/schwarzman_1.png'); }
+.complete_12 { background-image: url('https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/progress_bar/sterling_1.png'); }
+
+
+/****
+* Module
+****/
+.module_box {
+	position: relative;
+	padding-top: 40px;
+}
+.title_box {
+	min-width: 80px;
+	position: absolute;
+	left: -20px;
+	top: -20px;
+	padding: 4px 10px
+}
+
+
+.background_building {
+	width: 100%;
+
+	z-index: -1;
+
+	position: absolute;
+	left: 60px;
+	top: 50px;
+/*
+	display: block;
+	box-shadow: -7px 7px 0px rgb(31, 117, 208);
+	-webkit-box-shadow: -7px 7px 0px rgb(31, 117, 208);
+	-moz-box-shadow: -7px 7px 0px rgb(31, 117, 208);
+*/
+
+	-webkit-mask-image:-webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,1)), to(rgba(0,0,0,0)));
+
+}
+.title {
+	display: inline-block;
+	padding: 10px 20px;
+}
+.title p {
+	font-size: 22px;
+	font-weight: bold;
+	margin: 0px;
+	color: rgb(31, 117, 208);
+}
+.title h1 {
+	font-size: 38px;
+	margin: 0px;
+	font-weight: bold; 
+	color: rgb(254, 202, 10);
+	text-transform: uppercase;
+}
+.quicklinks a{
+	display: inline-block;
+	margin: 3px 0px;
+	font-size: 11pt;
+	font-weight: bold;
+	color: rgb(31, 117, 208);
+}
+.building_descriptor {
+	width:300px;
+}
+
+#overview {
+	margin-top:50px;
+	width:300px;
+}
+#watch{
+	margin-top:150px;
+	width:650px;
+}
+#practice {
+	margin-top: 30px;
+	width:300px;
+}
+#apply {
+	margin-top: 30px;
+	width:400px;
+}
+#explore {
+	margin-top: 30px;
+	width:600px;
+}
+
+#practice .onexys_button{
+	display: block;
+	margin: 0px auto 10px;
+	width: 90px;
+}
+
+.watch_video {
+	width: 300px;
+	margin: 10px;
+}
+.watch_video p{
+	margin: 10px 0px 0px;
+}
+
+.apply_button {
+	margin: 0px 10px 10px;
+	width: 70px;
+	position: relative;
+}
+.apply_button img{
+	position: absolute;
+	top: -10px;
+	left: -10px;
+	width: 35px;
+}
+.apply_description {
+	width: 250px;
+}
+#meet-button {
+	background-color: rgb(250,250,250);
+	border: 2px solid rgb(31, 117, 208);
+	color: rgb(31, 117, 208) !important;
+}
+
+
+/****
+* Badges
+****/
+
+.badge_title {
+	display: inline-block;
+	margin-bottom: 50px;
+}
+.badge_title p {
+	font-size: 30px;
+	font-weight: bold;
+	margin: 10px;
+	/* color: rgb(33, 148, 210); */
+	color: rgb(31, 117, 208);
+}
+.badge_title h1 {
+	font-size: 70px;
+	font-weight: bold; 
+	color: rgb(254, 202, 10);
+	margin: 0px 10px;
+	margin-bottom: 10px;
+	text-transform: uppercase;
+}
+.badge_title_text {
+	margin-left: 20px;
+	width: 400px;
+}
+.badge_title_text p{
+	font-size: 14pt;
+}
+#badge_display {
+	width: 1000px;
+}
+.onexys_badge {
+	margin: 30px 20px;
+	float: left;
+}
+.badge_portrait {
+	width: 200px;
+	height: 250px;
+	border-radius: 10px; 
+	border: 3px solid rgb(31,117,208);
+	background-color: rgb(35,130,240);
+
+	background-size: 100% 100%;
+	transition: all 0.5s ease;
+}
+
+.badge_box {
+	background: #fff;
+	border: 3px solid rgb(31,117,208);
+	border-radius: 10px;
+	color: rgb(31,117,208); 
+	margin: 0px;
+	line-height: normal !important;
+}
+.badge_box h3 {
+	line-height: normal !important;
+}
+.badge_points {
+	float: right;
+	position: relative;
+	bottom: 25px;
+	left: 20px;
+
+	text-align: center;
+}
+.badge_points p{
+	min-height: 30px;
+	min-width: 20px;
+	font-size: 22pt;
+	font-weight: bold;
+	margin: 3px 5px;
+}
+
+.badge_descriptor {
+	width: 120px;
+	min-height: 40px;
+	float: left;
+	position: relative;
+	bottom: 25px;
+	right: 20px;
+}
+.badge_descriptor h3{
+	font-size: 14pt;
+	margin: 2px 5px;
+}
+.badge_descriptor p{
+	font-size: 10pt;
+	margin: 2px 5px;
+}
+.badge_label {
+	width: 200px;
+	height: 50px;
+	margin-top: 5px;
+	text-align: center;
+}
+.badge_label h3{
+	font-size: 16pt;
+	margin: 2px 5px;
+}
+.badge_label p{
+	font-size: 10pt;
+	margin: 2px 5px;
+}
+
+.completed .badge_portrait {
+	border: 3px solid rgb(255,197,7);
+	box-shadow: 0px 0px 10px 5px rgb(255, 242, 23);
+	background-color: rgb(255, 242, 23);
+}
+.completed .badge_box {
+	border: 3px solid rgb(255,197,7);
+	color: rgb(251, 90, 3);;
+}
+.completed .badge_points p{
+	color: rgb(251, 90, 3);
+}
+.completed .badge_descriptor p{
+	color: rgb(198, 46, 0);
+}
+.completed .badge_label p{
+	color: rgb(198, 46, 0);
+}
+
+#recent_badges .badge_label{
+	display: none;
+}
+#recent_badges .badge_points{
+	display: none;
+}
+#recent_badges .badge_descriptor{
+	display: none;
+}
+#recent_badges .onexys_badge {
+	margin: 0px;
+}
+#recent_badges .badge_portrait {
+	margin: 0px 7px;
+	width: 80px;
+	height: 100px;
+}
+#recent_badges .completed .badge_portrait {
+	box-shadow: 0px 0px 5px 3px rgb(255, 242, 23);
+}
+
+.badge1 .badge_portrait{ background-image: url(https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/badges/badge1_0.png); }
+.completed.badge1 .badge_portrait{ background-image: url(https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/badges/badge1_1.png); }
+.completed.badge1 .badge_portrait:hover { background-image: url(https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/badges/badge1_2.png); }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/***
+* Old Module Page
+***/
+
+/* Moving tabs to right side */
+/* Copied from http://keith-wood.name/uitabs.html#tabs-to-right */
+#tabs-right {
+    position: relative; 
+    padding-right: 6.5em;
+} 
+#tabs-right .ui-tabs-nav { 
+    position: absolute; 
+    right: 0.25em; 
+    top: 0.25em; 
+    bottom: 0.25em; 
+    width: 6em; 
+    padding: 0.2em 0.2em 0.2em 0em; 
+
+    background: none;
+    border: none;
+} 
+#tabs-right .ui-tabs-nav li { 
+    width: 100%; 
+    border-left: none; 
+    border-bottom-width: 1px !important; 
+    -moz-border-radius: 0px 4px 4px 0px; 
+    -webkit-border-radius: 0px 4px 4px 0px; 
+    border-radius: 0px 4px 4px 0px; 
+    overflow: hidden; 
+} 
+#tabs-right .ui-tabs-nav li a { 
+    width: 100%; 
+} 
+#tabs-right .ui-tabs-panel { 
+    min-height: 500px; 
+}
+
+/* Tabs Customizations */
+#tabs-right {
+	float: left;
+    border: none;
+    width: 400px;
+    margin: 20px 0px 0px 20px;
+
+    background: none;
+}
+#tabs-right .ui-tabs-nav li { 
+	background: rgb(0, 174, 239);
+	border: 1px solid #efefef;
+	border-left: none;
+	margin-top: 5px;
+}
+#tabs-right .ui-tabs-nav li.ui-tabs-selected, 
+#tabs-right .ui-tabs-nav li.ui-state-active { 
+	background: #fff;
+	border: 1px solid rgb(0, 174, 239);
+	border-left: none;
+} 
+#tabs-right .ui-tabs-panel { 
+	background: #fff;
+
+    border: 2px solid rgb(31, 117, 208);
+	border-radius: 5px;
+
+	box-shadow: -7px 7px 0px rgb(31, 117, 208);
+}
+
+
+.module_background {
+	background-image: url('./images/module_background.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.module_information {
+	float: right;
+    margin: 20px 20px 0px 20px;
+
+	width: 200px;
+
+	background: #fff;
+
+    border: 2px solid rgb(31, 117, 208);
+	border-radius: 5px;
+
+	box-shadow: -7px 7px 0px rgb(31, 117, 208);
+}
+.module_information p, .module_information h2{
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+
+
+
+
+/*
+    Colorbox Core Style:
+    The following CSS is consistent between example themes and should not be altered.
+*/
+#colorbox, #cboxOverlay, #cboxWrapper{position:absolute; top:0; left:0; z-index:9999; overflow:hidden; -webkit-transform: translate3d(0,0,0);}
+#cboxWrapper {max-width:none;}
+#cboxOverlay{position:fixed; width:100%; height:100%;}
+#cboxMiddleLeft, #cboxBottomLeft{clear:left;}
+#cboxContent{position:relative;}
+#cboxLoadedContent{overflow:auto; -webkit-overflow-scrolling: touch;}
+#cboxTitle{margin:0;}
+#cboxLoadingOverlay, #cboxLoadingGraphic{position:absolute; top:0; left:0; width:100%; height:100%;}
+#cboxPrevious, #cboxNext, #cboxClose, #cboxSlideshow{cursor:pointer;}
+.cboxPhoto{float:left; margin:auto; border:0; display:block; max-width:none; -ms-interpolation-mode:bicubic;}
+.cboxIframe{width:100%; height:100%; display:block; border:0; padding:0; margin:0;}
+#colorbox, #cboxContent, #cboxLoadedContent{box-sizing:content-box; -moz-box-sizing:content-box; -webkit-box-sizing:content-box;}
+
+/* 
+    User Style:
+    Change the following styles to modify the appearance of Colorbox.  They are
+    ordered & tabbed in a way that represents the nesting of the generated HTML.
+*/
+
+#cboxOverlay{background:url(https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/colorbox/overlay.png) repeat 0 0; opacity: 0.9; filter: alpha(opacity = 90);}
+#colorbox{outline:0;}
+    #cboxTopLeft{width:21px; height:21px; background:url(https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/colorbox/controls.png) no-repeat -101px 0;}
+    #cboxTopRight{width:21px; height:21px; background:url(https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/colorbox/controls.png) no-repeat -130px 0;}
+    #cboxBottomLeft{width:21px; height:21px; background:url(https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/colorbox/controls.png) no-repeat -101px -29px;}
+    #cboxBottomRight{width:21px; height:21px; background:url(https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/colorbox/controls.png) no-repeat -130px -29px;}
+    #cboxMiddleLeft{width:21px; background:url(https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/colorbox/controls.png) left top repeat-y;}
+    #cboxMiddleRight{width:21px; background:url(https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/colorbox/controls.png) right top repeat-y;}
+    #cboxTopCenter{height:21px; background:url(https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/colorbox/border.png) 0 0 repeat-x;}
+    #cboxBottomCenter{height:21px; background:url(https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/colorbox/border.png) 0 -29px repeat-x;}
+    #cboxContent{background:#fff; overflow:hidden;}
+        .cboxIframe{background:#fff;}
+        #cboxError{padding:50px; border:1px solid #ccc;}
+        #cboxLoadedContent{margin-bottom:28px;}
+        #cboxTitle{position:absolute; bottom:4px; left:0; text-align:center; width:100%; color:#949494;}
+        #cboxCurrent{position:absolute; bottom:4px; left:58px; color:#949494;}
+        #cboxLoadingOverlay{background:url(https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/colorbox/loading_background.png) no-repeat center center;}
+        #cboxLoadingGraphic{background:url(https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/colorbox/loading.gif) no-repeat center center;}
+
+        /* these elements are buttons, and may need to have additional styles reset to avoid unwanted base styles */
+        #cboxPrevious, #cboxNext, #cboxSlideshow, #cboxClose {border:0; padding:0; margin:0; overflow:visible; width:auto; background:none; }
+        
+        /* avoid outlines on :active (mouseclick), but preserve outlines on :focus (tabbed navigating) */
+        #cboxPrevious:active, #cboxNext:active, #cboxSlideshow:active, #cboxClose:active {outline:0;}
+
+        #cboxSlideshow{position:absolute; bottom:4px; right:30px; color:#0092ef;}
+        #cboxPrevious{position:absolute; bottom:0; left:0; background:url(https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/colorbox/controls.png) no-repeat -75px 0; width:25px; height:25px; text-indent:-9999px;}
+        #cboxPrevious:hover{background-position:-75px -25px;}
+        #cboxNext{position:absolute; bottom:0; left:27px; background:url(https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/colorbox/controls.png) no-repeat -50px 0; width:25px; height:25px; text-indent:-9999px;}
+        #cboxNext:hover{background-position:-50px -25px;}
+        #cboxClose{position:absolute; bottom:0; right:0; background:url(https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/colorbox/controls.png) no-repeat -25px 0; width:25px; height:25px; text-indent:-9999px;}
+        #cboxClose:hover{background-position:-25px -25px;}
+
+/*
+  The following fixes a problem where IE7 and IE8 replace a PNG's alpha transparency with a black fill
+  when an alpha filter (opacity change) is set on the element or ancestor element.  This style is not applied to or needed in IE9.
+  See: http://jacklmoore.com/notes/ie-transparency-problems/
+*/
+.cboxIE #cboxTopLeft,
+.cboxIE #cboxTopCenter,
+.cboxIE #cboxTopRight,
+.cboxIE #cboxBottomLeft,
+.cboxIE #cboxBottomCenter,
+.cboxIE #cboxBottomRight,
+.cboxIE #cboxMiddleLeft,
+.cboxIE #cboxMiddleRight {
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#00FFFFFF,endColorstr=#00FFFFFF);
+}
+
