@@ -552,20 +552,20 @@
 .standard_title_box p {
 	margin: 5px 3px 10px;
 }
-.title {
+.title_mod {
 	display: inline-block;
 	padding: 10px 20px;
 	margin-left: -58px;
 }
 
-.title p {
+.title_mod p {
 	font-size: 30px;
 	font-weight: bold;
 	margin-top: 10px;
 	margin-left: -5px;
 	color: rgb(31, 117, 208);
 }
-.title h1 {
+.title_mod h1 {
 	font-size: 57px;
 	margin-top: -2px;
 	margin-bottom: -5px;
@@ -597,30 +597,40 @@
 }
 #overview {
 	margin-top:170px;
+	padding-top: 20px;
 	width:300px;
+	padding-top: 20px;
 }
 #watch{
-	margin-top:450px;i
+	margin-top:450px;
+	padding-top: 20px;
 	width:650px;
+	padding-top: 20px;
 }
 #practice {
 	margin-top: 40px;
+	padding-top: 20px;
 	width:300px;
+	padding-top: 20px;
 }
 #apply {
 	margin-top: 40px;
+	padding-top: 20px;
 	width:400px;
+	padding-top: 20px;
 }
 #explore {
+	padding-top: 20px;
 	padding-left: 10px;
 	padding-right: 10px;
 	margin-top: 40px;
 	width:400px;
 	padding-bottom: 10px;
+	padding-top: 20px;
 }
 
 #explore .watch_video {
-	width: 400px !important;
+	width: 399px;
 	margin: 0px;
 	margin-right: 0px;
 }
