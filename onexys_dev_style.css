@@ -14,7 +14,7 @@
 	font-size: 13px;
 	line-height: 18px;
 
-	min-width: 1100px;
+	min-width: 0px;
 }
 
 .onexys_styling a {
@@ -248,7 +248,7 @@
 
 	position: relative;
 	margin-left: -12px;
-	left: 22px;
+	left: 20px;
 	z-index: 100;
 
 	padding: 0px 6px;
@@ -281,8 +281,8 @@
   height: 65px;
   padding-top: 13px;
   position: absolute;
-  top: 110px;
-  left: 312px;
+  top: 100px;
+  left: 305px;
   z-index: 90;
   font-size: 11px;
   letter-spacing: 0.2em;
@@ -330,8 +330,8 @@
 }
 #point_shadow{
 	position: absolute;
-	left: 300px;
-	top: 47px;
+	left: 290px;
+	top: 42px;
 	width: 120px;
 	height: 102px;
 	border-radius: 8px 8px 0px 8px;
@@ -347,7 +347,7 @@
   color: rgb(31, 117, 208);
   font-weight: bold;
   font-size: 12px;
-  line-height: 20px;
+  line-height: 18px;
 }
 #leaderboard tbody {
   border-radius: 5px;
@@ -447,18 +447,31 @@
 }
 
 
-.default_1  { background-image: url('https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/progress_bar/battell_0.png'); }
-.default_2  { background-image: url('https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/progress_bar/beinecke_0.png'); }
-.default_3  { background-image: url('https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/progress_bar/bowl_0.png'); }
-.default_4  { background-image: url('https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/progress_bar/dwight_0.png'); }
-.default_5  { background-image: url('https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/progress_bar/green_0.png'); }
-.default_6  { background-image: url('https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/progress_bar/harkness_0.png'); }
-.default_7  { background-image: url('https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/progress_bar/ingalls_0.png'); }
-.default_8  { background-image: url('https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/progress_bar/kroon_0.png'); }
-.default_9  { background-image: url('https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/progress_bar/linsly_0.png'); }
-.default_10 { background-image: url('https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/progress_bar/phelps_0.png'); }
-.default_11 { background-image: url('https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/progress_bar/schwarzman_0.png'); }
-.default_12 { background-image: url('https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/progress_bar/sterling_0.png'); }
+.default_1  { background-image: url('https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/progress_bar/battell_2.png'); }
+.default_2  { background-image: url('https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/progress_bar/beinecke_2.png'); }
+.default_3  { background-image: url('https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/progress_bar/bowl_2.png'); }
+.default_4  { background-image: url('https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/progress_bar/dwight_2.png'); }
+.default_5  { background-image: url('https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/progress_bar/green_2.png'); }
+.default_6  { background-image: url('https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/progress_bar/harkness_2.png'); }
+.default_7  { background-image: url('https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/progress_bar/ingalls_2.png'); }
+.default_8  { background-image: url('https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/progress_bar/kroon_2.png'); }
+.default_9  { background-image: url('https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/progress_bar/linsly_2.png'); }
+.default_10 { background-image: url('https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/progress_bar/phelps_2.png'); }
+.default_11 { background-image: url('https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/progress_bar/schwarzman_2.png'); }
+.default_12 { background-image: url('https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/progress_bar/sterling_2.png'); }
+
+.available_1  { background-image: url('https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/progress_bar/battell_0.png'); }
+.available_2  { background-image: url('https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/progress_bar/beinecke_0.png'); }
+.available_3  { background-image: url('https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/progress_bar/bowl_0.png'); }
+.available_4  { background-image: url('https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/progress_bar/dwight_0.png'); }
+.available_5  { background-image: url('https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/progress_bar/green_0.png'); }
+.available_6  { background-image: url('https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/progress_bar/harkness_0.png'); }
+.available_7  { background-image: url('https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/progress_bar/ingalls_0.png'); }
+.available_8  { background-image: url('https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/progress_bar/kroon_0.png'); }
+.available_9  { background-image: url('https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/progress_bar/linsly_0.png'); }
+.available_10 { background-image: url('https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/progress_bar/phelps_0.png'); }
+.available_11 { background-image: url('https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/progress_bar/schwarzman_0.png'); }
+.available_12 { background-image: url('https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/progress_bar/sterling_0.png'); }
 
 .complete_1  { background-image: url('https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/progress_bar/battell_1.png'); }
 .complete_2  { background-image: url('https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/progress_bar/beinecke_1.png'); }
@@ -552,6 +565,196 @@
 .standard_title_box p {
 	margin: 5px 3px 10px;
 }
+.coach_major_strong{
+	display: inline-block;
+	width: 40px;
+	margin: 0;
+}
+.coach_major{
+	float: right;
+	width: 200px;
+	margin: 0;
+	padding-bottom: 10px;
+	top: 0;
+}
+.coach_ital{
+	font-style: italic;
+}
+.coach_header{
+	position: relative;
+	top: 0;
+	left: 0;
+	height: 80px;
+}
+.coach_college{
+	display: inline-block;
+}
+.coach_name{
+	font-size: 23px;
+	line-height: 30px;
+	font-weight: bold;
+	width: 250px;
+	background-color: white;
+	padding-bottom: 30px;
+}
+.coach_prelim{
+	margin-top: 40px;
+	font-size: 15px;
+	width: 250px;
+	line-height: 25px;
+
+}
+.coach_heading{
+	position: fixed;
+	left: 320px;
+	top: 20px;
+	padding: 10px;
+	padding-top: 10px;
+	padding-left: 30px;
+	font-size: 19px;
+	width: calc(100% - 400px);
+	max-width: 615px;
+	min-width: 270px;
+	font-weight: bold;
+	text-align: right;
+	border: 4px solid rgb(31, 117, 208);
+	border-radius: 0px 8px 8px 0px;
+}
+.coach_veil1{
+	position: fixed;
+	margin: 0;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 70px;
+	background-color: white;
+}
+.coach_photo{
+	display: block;
+	float: right;
+	width: 300px;
+	height: 375px;
+	border-radius: 2px;
+	border: 4px solid rgb(31, 117, 208);
+}
+.coach_bio{
+	display: inline-block;
+	margin-top: 20px;
+	font-size: 15px;
+	line-height: 23px;
+}
+.coach_veil2{
+	position: fixed;
+	margin: 0;
+	top: 0;
+	left: 0;
+	width: 324px;
+	height: 100%;
+	background-color: white;
+}
+.coach_blueteam{
+	background-color: rgb(31, 117, 208);
+	color: white;
+}
+.coach_whiteteam{
+	background-color: white;
+	color: rgb(31, 117, 208);
+}
+.coach_greyteam{
+	background-color: rgb(231, 231, 251);
+	color: rgb(31, 117, 208);
+}
+.coach_packet{
+	position: relative;
+	width: 600px;
+	height: auto;
+	background-color: none;
+	display: inline-block;
+	left: 340px;
+	margin: 0;
+
+}
+.coaches_index{
+	position: fixed;
+	left: 30px;
+	top: 110px;
+	margin: 10px;
+	padding: 10px;
+	padding-top: 30px;
+
+	background-color: #fff;
+
+	border: 3.25px solid rgb(31, 117, 208);
+	border-radius: 10px;
+}
+.coaches_index a{
+	display: inline-block;
+	margin-left: 5px;
+	margin-right: 5px;
+	margin-bottom: 3px;
+	margin-top: 3px;
+	font-size: 16px;
+	line-height: 19px;
+	font-weight: bold;
+	color: rgb(31, 117, 208);
+}
+.coach_title{
+	position: fixed;
+	top: 20px;
+	left: 20px;
+	height: 95px;
+	display: block;
+	width: 240px;
+	padding: 10px 20px;
+	background-color: #fff;
+
+	border: 5px solid rgb(31, 117, 208);
+	border-radius: 8px;
+}
+.coach_divider{
+	position: fixed;
+	left: 320px;
+	top: 10px;
+	width: 4px;
+	border-radius: 2px;
+	background-color: rgb(31, 117, 208);
+	height: calc(100% - 20px);
+
+}
+.coach_title_shadow{
+	position: fixed;
+	top: 30px;
+	left: 10px;
+	display: block;
+	width: 240px;
+	height: 95px;
+	padding: 10px 20px;
+	background-color: rgb(31, 117, 208);
+
+	border: 4px solid rgb(31, 117, 208);
+	border-radius: 8px;
+}
+.coach_title p {
+	margin: 5px 3px 10px;
+	font-size: 30px;
+	font-weight: bold;
+	margin-top: 10px;
+	margin-left: -5px;
+	color: rgb(31, 117, 208);
+}
+.coach_title h1 {
+	font-size: 57px;
+	margin-top: -2px;
+	margin-bottom: -5px;
+	margin-left: -8px;
+	padding: 0;
+	letter-spacing: -1px;
+	font-weight: bold; 
+	color: rgb(254, 202, 10);
+	text-transform: none;
+	line-height: 65px;
+}
+
 .title_mod {
 	display: inline-block;
 	padding: 10px 20px;
@@ -574,7 +777,7 @@
 	letter-spacing: -1px;
 	font-weight: bold; 
 	color: rgb(254, 202, 10);
-	text-transform: uppercase;
+	text-transform: none;
 	line-height: 65px;
 }
 .quicklinks a{
