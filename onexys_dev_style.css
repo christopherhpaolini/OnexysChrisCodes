@@ -664,6 +664,10 @@
 	background-color: rgb(231, 231, 251);
 	color: rgb(31, 117, 208);
 }
+.coach_yellowteam{
+	background-color: rgb(254, 202, 10);
+	color: white;
+}
 .coach_packet{
 	position: relative;
 	width: 600px;
