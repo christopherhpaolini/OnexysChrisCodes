@@ -14,9 +14,16 @@
 	font-size: 13px;
 	line-height: 18px;
 
-	min-width: 1200px;
+	min-width: 1025px;
 }
+.onexys_styling.coachoverride {
+	font-family: Helvetica;
+	color: rgb(31, 117, 208);
+	font-size: 13px;
+	line-height: 18px;
 
+	min-width: 900px;
+}
 .onexys_styling a {
 	color: rgb(37, 63, 142);
 	text-decoration: none;
@@ -605,7 +612,7 @@
 
 }
 .coach_heading{
-	position: fixed;
+	position: absolute;
 	left: 320px;
 	top: 20px;
 	padding: 10px;
@@ -614,14 +621,15 @@
 	font-size: 19px;
 	width: calc(100% - 400px);
 	max-width: 615px;
-	min-width: 270px;
+	min-width: 615px;
 	font-weight: bold;
 	text-align: right;
 	border: 4px solid rgb(31, 117, 208);
 	border-radius: 0px 8px 8px 0px;
 }
+
 .coach_veil1{
-	position: fixed;
+	position: absolute;
 	margin: 0;
 	top: 0;
 	left: 0;
@@ -644,7 +652,7 @@
 	line-height: 23px;
 }
 .coach_veil2{
-	position: fixed;
+	position: absolute;
 	margin: 0;
 	top: 0;
 	left: 0;
@@ -679,7 +687,7 @@
 
 }
 .coaches_index{
-	position: fixed;
+	position: absolute;
 	left: 30px;
 	top: 110px;
 	margin: 10px;
@@ -703,7 +711,7 @@
 	color: rgb(31, 117, 208);
 }
 .coach_title{
-	position: fixed;
+	position: absolute;
 	top: 20px;
 	left: 20px;
 	height: 95px;
@@ -716,7 +724,7 @@
 	border-radius: 8px;
 }
 .coach_divider{
-	position: fixed;
+	position: absolute;
 	left: 320px;
 	top: 10px;
 	width: 4px;
@@ -726,7 +734,7 @@
 
 }
 .coach_title_shadow{
-	position: fixed;
+	position: absolute;
 	top: 30px;
 	left: 10px;
 	display: block;
@@ -895,7 +903,15 @@
 	color: rgb(31, 117, 208) !important;
 }
 
-
+.module-sequence-padding{
+	display: none;
+}
+.module-sequence-footer{
+	display: none;
+}
+.module-sequence-footer-content{
+	display: none;
+}
 /****
 * Badges
 ****/
@@ -940,13 +956,13 @@
 	top: 20px;
 	border-radius: 2px;
 	background-color: rgb(31, 117, 208);
-	height: 100%;
+	height: 170px;
 	right: 0;
 	top: 0;
 }
 #badge_display {
 	width: 1200px;
-	margin-top: 50px;
+	margin-top: 70px;
 }
 .onexys_badge {
 	width:240px;
@@ -980,6 +996,7 @@
 }
 .badge_box h3 {
 	line-height: normal !important;
+	font-weight: bold;
 }
 .badge_points {
 	position: relative;
