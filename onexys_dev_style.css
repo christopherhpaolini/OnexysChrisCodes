@@ -14,7 +14,10 @@
 	font-size: 13px;
 	line-height: 18px;
 
-	min-width: 1025px;
+	min-width: 1105px;
+}
+.onexys_styling.o_homepage{
+	min-width: 1105px;
 }
 .onexys_styling.coachoverride {
 	font-family: Helvetica;
@@ -327,6 +330,64 @@
 	padding-top: 0;
 	height: 125px;
 }
+#leaderboard img{
+	margin-top: -18.5px;
+	width: 220px;
+	margin-left: 0px;
+}
+#myteam_head{
+	font-size: 7px;
+	z-index: 2;
+	width: 40px;
+	height: 11px;
+	margin-left: 83px;
+	margin-top: -8px;
+	color: rgb(31,117,208);
+	background-color: white;
+	text-align: center;
+	border-radius: 4px;
+	font-weight: bold;
+  	line-height: 12px;
+  	border: 2px solid rgb(31,117,208);
+
+}
+#leaderboard_myteam{
+	background-color: rgb(31,117,208);
+	margin-top: -18px;
+	width: 216px;
+	margin-left: 0;
+	height: 24px;
+	color: white;
+	border-left: 2px white solid;
+	border-right: 2px white solid;
+	border-bottom: 2px white solid;
+	border-radius: 0px 0px 6px 6px;
+	font-size: 12px;
+	font-weight: normal;
+}
+.leaderboard_place{
+	margin-top: 3px;
+	font-size: 12px;
+	width: 20px;
+	margin-left: 23px;
+	display: inline-block;
+	text-align: center;
+}
+.leaderboard_name{
+	margin-top: 3px;
+	font-size: 12.5px;
+	width: 90px;
+	margin-left: 12px;
+	text-align: center;
+	display: inline-block;
+}
+.leaderboard_points{
+	margin-top: 3px;
+	width: 50px;
+	margin-left: 10.5px;
+	text-align: center;
+	display: inline-block;
+}
 #leaderboard h2 {
 	margin-top: 5px !important;
 	padding-left: 18px;
@@ -354,7 +415,7 @@
   color: rgb(31, 117, 208);
   font-weight: bold;
   font-size: 12px;
-  line-height: 18px;
+  line-height: 17px;
 }
 #leaderboard tbody {
   border-radius: 5px;
@@ -542,7 +603,7 @@
 	width: calc(100% - 60px);
 	max-width: none !important;
 	z-index: -1;
-
+	background-color: rgb(31, 117, 208);
 	position: absolute;
 	right: 0px;
 	top: 50px;
@@ -573,14 +634,15 @@
 	margin: 5px 3px 10px;
 }
 .coach_major_strong{
-	display: inline-block;
-	width: 40px;
+	display: inline;
+	width: 60px;
 	margin: 0;
 }
 .coach_major{
+	display: inline;
 	float: right;
 	width: 200px;
-	margin: 0;
+	margin-left: 10px;
 	padding-bottom: 10px;
 	top: 0;
 }
@@ -595,6 +657,7 @@
 }
 .coach_college{
 	display: inline-block;
+	margin-top: 5px;
 }
 .coach_name{
 	font-size: 23px;
@@ -607,7 +670,7 @@
 .coach_prelim{
 	margin-top: 40px;
 	font-size: 15px;
-	width: 250px;
+	width: 270px;
 	line-height: 25px;
 
 }
