@@ -2,19 +2,54 @@
 <!-- Generator: Adobe Illustrator 19.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 100 100" style="enable-background:new 0 0 100 100;" xml:space="preserve">
+	 viewBox="-399 101 100 100" style="enable-background:new -399 101 100 100;" xml:space="preserve">
 <style type="text/css">
 	.st0{fill:#1F75CF;}
 	.st1{fill:none;stroke:#1F75CF;stroke-width:3;}
 	.st2{fill:#FFC100;}
 	.st3{fill:none;stroke:#FFFFFF;stroke-width:3;}
+	.st4{enable-background:new    ;}
 </style>
-<polygon class="st0" points="3.9,24.4 3.9,82.3 52.4,74.8 89.5,80.8 89.5,24.4 "/>
+<polygon class="st0" points="-650.1,472.4 -650.1,530.3 -601.6,522.8 -564.5,528.8 -564.5,472.4 "/>
 <g>
-	<polygon class="st1" points="3.9,24.4 3.9,82.3 52.4,74.8 89.5,80.8 89.5,24.4 	"/>
+	<polygon class="st1" points="-650.1,472.4 -650.1,530.3 -601.6,522.8 -564.5,528.8 -564.5,472.4 	"/>
 </g>
-<polygon class="st2" points="8.9,18.4 8.9,76.3 52.4,69.3 96,76.3 96,18.4 "/>
+<polygon class="st2" points="-645.1,466.4 -645.1,524.3 -601.6,517.3 -558,524.3 -558,466.4 "/>
 <g>
-	<polygon class="st3" points="8.9,18.4 8.9,76.3 52.4,69.3 96,76.3 96,18.4 	"/>
+	<polygon class="st3" points="-645.1,466.4 -645.1,524.3 -601.6,517.3 -558,524.3 -558,466.4 	"/>
+</g>
+<g class="st4">
+	<path class="st0" d="M-617.3,475c0.6,0.2,1,0.5,1.3,1c0.3,0.4,0.5,0.8,0.6,1.3c0.1,0.5,0.2,0.9,0.2,1.3c0,1.1-0.2,1.9-0.6,2.7
+		c-0.6,1-1.5,1.5-2.7,1.5h-3.4v-7.9h3.4C-618,474.9-617.6,474.9-617.3,475z M-620.3,476.2v5.2h1.5c0.8,0,1.3-0.4,1.6-1.2
+		c0.2-0.4,0.3-0.9,0.3-1.5c0-0.8-0.1-1.4-0.4-1.9s-0.8-0.6-1.5-0.6H-620.3z"/>
+</g>
+<g class="st4">
+	<path class="st0" d="M-609.6,474.8h1.9l2.8,7.9h-1.8l-0.5-1.6h-2.9l-0.5,1.6h-1.7L-609.6,474.8z M-609.7,479.8h2l-1-3.1
+		L-609.7,479.8z"/>
+</g>
+<g class="st4">
+	<path class="st0" d="M-600.2,482.8h-1.6v-7.9h1.6V482.8z"/>
+</g>
+<g class="st4">
+	<path class="st0" d="M-596.4,474.8h1.7v6.5h4v1.4h-5.6V474.8z"/>
+</g>
+<g class="st4">
+	<path class="st0" d="M-584.2,474.8h1.9l-2.6,4.9v3h-1.7v-3l-2.7-4.9h1.9l1.6,3.4L-584.2,474.8z"/>
+</g>
+<g class="st4">
+	<path class="st0" d="M-627.8,491h3.9l-5.5,10.3v6.2h-3.4v-6.2l-5.7-10.3h4l3.4,7.2L-627.8,491z"/>
+</g>
+<g class="st4">
+	<path class="st0" d="M-617.7,491h3.9l5.8,16.4h-3.7l-1.1-3.4h-6.1l-1.1,3.4h-3.6L-617.7,491z M-617.9,501.3h4.2l-2.1-6.5
+		L-617.9,501.3z"/>
+</g>
+<g class="st4">
+	<path class="st0" d="M-604,491h3.4v13.5h8.2v3H-604V491z"/>
+</g>
+<g class="st4">
+	<path class="st0" d="M-584.9,507.5h-3.4V491h3.4V507.5z"/>
+</g>
+<g class="st4">
+	<path class="st0" d="M-567.3,493.9h-8.7v3.5h8v2.9h-8v4.2h9.1v3h-12.5V491h12V493.9z"/>
 </g>
 </svg>
