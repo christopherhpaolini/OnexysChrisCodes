@@ -1,12 +1,8 @@
 .user_content {
     overflow-x: scroll;
 }
-
-#right-side .events_list {
-    display: none !important;
-}
-.events_list.recent_feedback {
-    display: none !important;
+#right-side-wrapper.ic-app-main-content__secondary {
+	display: none !important;
 }
 .page-title {
 	display: none !important;
