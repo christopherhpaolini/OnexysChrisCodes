@@ -260,13 +260,13 @@
 .aleks_checkbox {
 	background-image: url('https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/checkmarks/check_blue_no.png'); 
 }
-.aleks_checkbox .completed{
+.aleks_checkbox.completed{
 	background-image: url('https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/checkmarks/check_blue_yes.png'); 
 }
 .quiz_checkbox {
 	background-image: url('https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/checkmarks/check_white_no.png'); 
 }
-.quiz_checkbox .completed{
+.quiz_checkbox.completed{
 	background-image: url('https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/checkmarks/check_white_yes.png'); 
 }
 
@@ -593,62 +593,62 @@
 
 
 
-.module_1 .progress_box   { background-image: url('https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/progress_bar/phelps_2.png'); }
-.module_2 .progress_box   { background-image: url('https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/progress_bar/kroon_2.png'); }
-.module_3 .progress_box   { background-image: url('https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/progress_bar/beinecke_2.png'); }
-.module_4 .progress_box   { background-image: url('https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/progress_bar/harkness_2.png'); }
-.module_5 .progress_box   { background-image: url('https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/progress_bar/connecticut_2.png'); }
-.module_6 .progress_box   { background-image: url('https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/progress_bar/linsly_2.png'); }
-.module_7 .progress_box   { background-image: url('https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/progress_bar/kline_2.png'); }
-.module_8 .progress_box   { background-image: url('https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/progress_bar/bowl_2.png'); }
-.module_9 .progress_box   { background-image: url('https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/progress_bar/malone_2.png'); }
-.module_10 .progress_box  { background-image: url('https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/progress_bar/ingalls_2.png'); }
-.module_11 .progress_box  { background-image: url('https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/progress_bar/sterling_2.png'); }
-.module_12 .progress_box  { background-image: url('https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/progress_bar/schwarzman_2.png'); }
-.module_13 .progress_box  { background-image: url('https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/progress_bar/woolsey_2.png'); }
-.module_14 .progress_box  { background-image: url('https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/progress_bar/battell_2.png'); }
-.module_15 .progress_box  { background-image: url('https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/progress_bar/dwight_2.png'); }
-.module_16 .progress_box  { background-image: url('https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/progress_bar/green_2.png'); }
-.module_17 .progress_box  { background-image: url('https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/progress_bar/saybrook_2.png'); }
-.module_18 .progress_box  { background-image: url('https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/progress_bar/yuag_2.png'); }
+.module_0  .progress_box  { background-image: url('https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/progress_bar/phelps_2.png'); }
+.module_1  .progress_box  { background-image: url('https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/progress_bar/kroon_2.png'); }
+.module_2  .progress_box  { background-image: url('https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/progress_bar/beinecke_2.png'); }
+.module_3  .progress_box  { background-image: url('https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/progress_bar/harkness_2.png'); }
+.module_4  .progress_box  { background-image: url('https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/progress_bar/connecticut_2.png'); }
+.module_5  .progress_box  { background-image: url('https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/progress_bar/linsly_2.png'); }
+.module_6  .progress_box  { background-image: url('https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/progress_bar/kline_2.png'); }
+.module_7  .progress_box  { background-image: url('https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/progress_bar/bowl_2.png'); }
+.module_8  .progress_box  { background-image: url('https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/progress_bar/malone_2.png'); }
+.module_9  .progress_box  { background-image: url('https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/progress_bar/ingalls_2.png'); }
+.module_10 .progress_box  { background-image: url('https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/progress_bar/sterling_2.png'); }
+.module_11 .progress_box  { background-image: url('https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/progress_bar/schwarzman_2.png'); }
+.module_12 .progress_box  { background-image: url('https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/progress_bar/woolsey_2.png'); }
+.module_13 .progress_box  { background-image: url('https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/progress_bar/battell_2.png'); }
+.module_14 .progress_box  { background-image: url('https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/progress_bar/dwight_2.png'); }
+.module_15 .progress_box  { background-image: url('https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/progress_bar/green_2.png'); }
+.module_16 .progress_box  { background-image: url('https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/progress_bar/saybrook_2.png'); }
+.module_17 .progress_box  { background-image: url('https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/progress_bar/yuag_2.png'); }
 
-.module_1 .progress_box .available  { background-image: url('https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/progress_bar/phelps_0.png'); }
-.module_2 .progress_box .available  { background-image: url('https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/progress_bar/kroon_0.png'); }
-.module_3 .progress_box .available  { background-image: url('https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/progress_bar/beinecke_0.png'); }
-.module_4 .progress_box .available  { background-image: url('https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/progress_bar/harkness_0.png'); }
-.module_5 .progress_box .available  { background-image: url('https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/progress_bar/connecticut_0.png'); }
-.module_6 .progress_box .available  { background-image: url('https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/progress_bar/linsly_0.png'); }
-.module_7 .progress_box .available  { background-image: url('https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/progress_bar/kline_0.png'); }
-.module_8 .progress_box .available  { background-image: url('https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/progress_bar/bowl_0.png'); }
-.module_9 .progress_box .available  { background-image: url('https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/progress_bar/malone_0.png'); }
-.module_10 .progress_box .available { background-image: url('https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/progress_bar/ingalls_0.png'); }
-.module_11 .progress_box .available { background-image: url('https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/progress_bar/sterling_0.png'); }
-.module_12 .progress_box .available { background-image: url('https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/progress_bar/schwarzman_0.png'); }
-.module_13 .progress_box .available { background-image: url('https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/progress_bar/woolsey_0.png'); }
-.module_14 .progress_box .available { background-image: url('https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/progress_bar/battell_0.png'); }
-.module_15 .progress_box .available { background-image: url('https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/progress_bar/dwight_0.png'); }
-.module_16 .progress_box .available { background-image: url('https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/progress_bar/green_0.png'); }
-.module_17 .progress_box .available { background-image: url('https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/progress_bar/saybrook_0.png'); }
-.module_18 .progress_box .available { background-image: url('https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/progress_bar/yuag_0.png'); }
+.module_0  .progress_box.available { background-image: url('https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/progress_bar/phelps_0.png'); }
+.module_1  .progress_box.available { background-image: url('https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/progress_bar/kroon_0.png'); }
+.module_2  .progress_box.available { background-image: url('https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/progress_bar/beinecke_0.png'); }
+.module_3  .progress_box.available { background-image: url('https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/progress_bar/harkness_0.png'); }
+.module_4  .progress_box.available { background-image: url('https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/progress_bar/connecticut_0.png'); }
+.module_5  .progress_box.available { background-image: url('https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/progress_bar/linsly_0.png'); }
+.module_6  .progress_box.available { background-image: url('https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/progress_bar/kline_0.png'); }
+.module_7  .progress_box.available { background-image: url('https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/progress_bar/bowl_0.png'); }
+.module_8  .progress_box.available { background-image: url('https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/progress_bar/malone_0.png'); }
+.module_9  .progress_box.available { background-image: url('https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/progress_bar/ingalls_0.png'); }
+.module_10 .progress_box.available { background-image: url('https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/progress_bar/sterling_0.png'); }
+.module_11 .progress_box.available { background-image: url('https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/progress_bar/schwarzman_0.png'); }
+.module_12 .progress_box.available { background-image: url('https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/progress_bar/woolsey_0.png'); }
+.module_13 .progress_box.available { background-image: url('https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/progress_bar/battell_0.png'); }
+.module_14 .progress_box.available { background-image: url('https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/progress_bar/dwight_0.png'); }
+.module_15 .progress_box.available { background-image: url('https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/progress_bar/green_0.png'); }
+.module_16 .progress_box.available { background-image: url('https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/progress_bar/saybrook_0.png'); }
+.module_17 .progress_box.available { background-image: url('https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/progress_bar/yuag_0.png'); }
 
-.module_1 .progress_box .completed  { background-image: url('https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/progress_bar/phelps_1.png'); }
-.module_2 .progress_box .completed  { background-image: url('https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/progress_bar/kroon_1.png'); }
-.module_3 .progress_box .completed  { background-image: url('https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/progress_bar/beinecke_1.png'); }
-.module_4 .progress_box .completed  { background-image: url('https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/progress_bar/harkness_1.png'); }
-.module_5 .progress_box .completed  { background-image: url('https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/progress_bar/connecticut_1.png'); }
-.module_6 .progress_box .completed  { background-image: url('https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/progress_bar/linsly_1.png'); }
-.module_7 .progress_box .completed  { background-image: url('https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/progress_bar/kline_1.png'); }
-.module_8 .progress_box .completed  { background-image: url('https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/progress_bar/bowl_1.png'); }
-.module_9 .progress_box .completed  { background-image: url('https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/progress_bar/malone_1.png'); }
-.module_10 .progress_box .completed { background-image: url('https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/progress_bar/ingalls_1.png'); }
-.module_11 .progress_box .completed { background-image: url('https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/progress_bar/sterling_1.png'); }
-.module_12 .progress_box .completed { background-image: url('https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/progress_bar/schwarzman_1.png'); }
-.module_13 .progress_box .completed { background-image: url('https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/progress_bar/woolsey_1.png'); }
-.module_14 .progress_box .completed { background-image: url('https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/progress_bar/battell_1.png'); }
-.module_15 .progress_box .completed { background-image: url('https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/progress_bar/dwight_1.png'); }
-.module_16 .progress_box .completed { background-image: url('https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/progress_bar/green_1.png'); }
-.module_17 .progress_box .completed { background-image: url('https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/progress_bar/saybrook_1.png'); }
-.module_18 .progress_box .completed { background-image: url('https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/progress_bar/yuag_1.png'); }
+.module_0  .progress_box.completed { background-image: url('https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/progress_bar/phelps_1.png'); }
+.module_1  .progress_box.completed { background-image: url('https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/progress_bar/kroon_1.png'); }
+.module_2  .progress_box.completed { background-image: url('https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/progress_bar/beinecke_1.png'); }
+.module_3  .progress_box.completed { background-image: url('https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/progress_bar/harkness_1.png'); }
+.module_4  .progress_box.completed { background-image: url('https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/progress_bar/connecticut_1.png'); }
+.module_5  .progress_box.completed { background-image: url('https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/progress_bar/linsly_1.png'); }
+.module_6  .progress_box.completed { background-image: url('https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/progress_bar/kline_1.png'); }
+.module_7  .progress_box.completed { background-image: url('https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/progress_bar/bowl_1.png'); }
+.module_8  .progress_box.completed { background-image: url('https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/progress_bar/malone_1.png'); }
+.module_9  .progress_box.completed { background-image: url('https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/progress_bar/ingalls_1.png'); }
+.module_10 .progress_box.completed { background-image: url('https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/progress_bar/sterling_1.png'); }
+.module_11 .progress_box.completed { background-image: url('https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/progress_bar/schwarzman_1.png'); }
+.module_12 .progress_box.completed { background-image: url('https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/progress_bar/woolsey_1.png'); }
+.module_13 .progress_box.completed { background-image: url('https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/progress_bar/battell_1.png'); }
+.module_14 .progress_box.completed { background-image: url('https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/progress_bar/dwight_1.png'); }
+.module_15 .progress_box.completed { background-image: url('https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/progress_bar/green_1.png'); }
+.module_16 .progress_box.completed { background-image: url('https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/progress_bar/saybrook_1.png'); }
+.module_17 .progress_box.completed { background-image: url('https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/progress_bar/yuag_1.png'); }
 
 
 /****
