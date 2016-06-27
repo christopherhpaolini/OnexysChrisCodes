@@ -248,8 +248,8 @@
 }
 .onexys_checkbox {
 	float: left;
-	padding-left: 4px;
-	margin-left: -5px;
+	padding-left: 0px;
+	margin-left:  0px;
 	margin-right: 0px;
 	margin-top: 10px;
 	width: 45px;
