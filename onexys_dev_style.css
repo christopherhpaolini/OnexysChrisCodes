@@ -1376,132 +1376,132 @@
 }
 
 .badge1 .badge_portrait{ 					background-image: url(https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/badges/badge1_0.png); }
-.badge1 .completed .badge_portrait{ 		background-image: url(https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/badges/badge1_1.png); }
-.badge1 .completed .badge_portrait:hover { 	background-image: url(https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/badges/badge1_2.png); }
+.badge1.completed .badge_portrait{ 		background-image: url(https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/badges/badge1_1.png); }
+.badge1.completed .badge_portrait:hover { 	background-image: url(https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/badges/badge1_2.png); }
 
 .badge2 .badge_portrait{ 					background-image: url(https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/badges/badge2_0.png); }
-.badge2 .completed .badge_portrait{ 		background-image: url(https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/badges/badge2_1.png); }
-.badge2 .completed .badge_portrait:hover { 	background-image: url(https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/badges/badge2_2.png); }
+.badge2.completed .badge_portrait{ 		background-image: url(https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/badges/badge2_1.png); }
+.badge2.completed .badge_portrait:hover { 	background-image: url(https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/badges/badge2_2.png); }
 
 .badge3 .badge_portrait{ 					background-image: url(https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/badges/badge3_0.png); }
-.badge3 .completed .badge_portrait{ 		background-image: url(https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/badges/badge3_1.png); }
-.badge3 .completed .badge_portrait:hover { 	background-image: url(https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/badges/badge3_2.png); }
+.badge3.completed .badge_portrait{ 		background-image: url(https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/badges/badge3_1.png); }
+.badge3.completed .badge_portrait:hover { 	background-image: url(https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/badges/badge3_2.png); }
 
 .badge4 .badge_portrait{ 					background-image: url(https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/badges/badge4_0.png); }
-.badge4 .completed .badge_portrait{ 		background-image: url(https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/badges/badge4_1.png); }
-.badge4 .completed .badge_portrait:hover { 	background-image: url(https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/badges/badge4_2.png); }
+.badge4.completed .badge_portrait{ 		background-image: url(https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/badges/badge4_1.png); }
+.badge4.completed .badge_portrait:hover { 	background-image: url(https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/badges/badge4_2.png); }
 
 .badge5 .badge_portrait{ 					background-image: url(https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/badges/badge5_0.png); }
-.badge5 .completed .badge_portrait{ 		background-image: url(https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/badges/badge5_1.png); }
-.badge5 .completed .badge_portrait:hover { 	background-image: url(https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/badges/badge5_2.png); }
+.badge5.completed .badge_portrait{ 		background-image: url(https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/badges/badge5_1.png); }
+.badge5.completed .badge_portrait:hover { 	background-image: url(https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/badges/badge5_2.png); }
 
 .badge6 .badge_portrait{ 					background-image: url(https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/badges/badge6_0.png); }
-.badge6 .completed .badge_portrait{ 		background-image: url(https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/badges/badge6_1.png); }
-.badge6 .completed .badge_portrait:hover { 	background-image: url(https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/badges/badge6_2.png); }
+.badge6.completed .badge_portrait{ 		background-image: url(https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/badges/badge6_1.png); }
+.badge6.completed .badge_portrait:hover { 	background-image: url(https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/badges/badge6_2.png); }
 
 .badge7 .badge_portrait{ 					background-image: url(https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/badges/badge7_0.png); }
-.badge7 .completed .badge_portrait{ 		background-image: url(https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/badges/badge7_1.png); }
-.badge7 .completed .badge_portrait:hover { 	background-image: url(https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/badges/badge7_2.png); }
+.badge7.completed .badge_portrait{ 		background-image: url(https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/badges/badge7_1.png); }
+.badge7.completed .badge_portrait:hover { 	background-image: url(https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/badges/badge7_2.png); }
 
 .badge8 .badge_portrait{ 					background-image: url(https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/badges/badge8_0.png); }
-.badge8 .completed .badge_portrait{ 		background-image: url(https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/badges/badge8_1.png); }
-.badge8 .completed .badge_portrait:hover { 	background-image: url(https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/badges/badge8_2.png); }
+.badge8.completed .badge_portrait{ 		background-image: url(https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/badges/badge8_1.png); }
+.badge8.completed .badge_portrait:hover { 	background-image: url(https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/badges/badge8_2.png); }
 
 .badge9 .badge_portrait{ 					background-image: url(https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/badges/badge9_0.png); }
-.badge9 .completed .badge_portrait{ 		background-image: url(https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/badges/badge9_1.png); }
-.badge9 .completed .badge_portrait:hover { 	background-image: url(https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/badges/badge9_2.png); }
+.badge9.completed .badge_portrait{ 		background-image: url(https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/badges/badge9_1.png); }
+.badge9.completed .badge_portrait:hover { 	background-image: url(https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/badges/badge9_2.png); }
 
 .badge10 .badge_portrait{ 					background-image: url(https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/badges/badge10_0.png); }
-.badge10 .completed .badge_portrait{ 		background-image: url(https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/badges/badge10_1.png); }
-.badge10 .completed .badge_portrait:hover { background-image: url(https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/badges/badge10_2.png); }
+.badge10.completed .badge_portrait{ 		background-image: url(https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/badges/badge10_1.png); }
+.badge10.completed .badge_portrait:hover { background-image: url(https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/badges/badge10_2.png); }
 
 .badge11 .badge_portrait{ 					background-image: url(https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/badges/badge11_0.png); }
-.badge11 .completed .badge_portrait{ 		background-image: url(https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/badges/badge11_1.png); }
-.badge11 .completed .badge_portrait:hover { background-image: url(https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/badges/badge11_2.png); }
+.badge11.completed .badge_portrait{ 		background-image: url(https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/badges/badge11_1.png); }
+.badge11.completed .badge_portrait:hover { background-image: url(https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/badges/badge11_2.png); }
 
 .badge12 .badge_portrait{ 					background-image: url(https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/badges/badge12_0.png); }
-.badge12 .completed .badge_portrait{ 		background-image: url(https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/badges/badge12_1.png); }
-.badge12 .completed .badge_portrait:hover { background-image: url(https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/badges/badge12_2.png); }
+.badge12.completed .badge_portrait{ 		background-image: url(https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/badges/badge12_1.png); }
+.badge12.completed .badge_portrait:hover { background-image: url(https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/badges/badge12_2.png); }
 
 .badge13 .badge_portrait{ 					background-image: url(https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/badges/badge13_0.png); }
-.badge13 .completed .badge_portrait{ 		background-image: url(https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/badges/badge13_1.png); }
-.badge13 .completed .badge_portrait:hover { background-image: url(https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/badges/badge13_2.png); }
+.badge13.completed .badge_portrait{ 		background-image: url(https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/badges/badge13_1.png); }
+.badge13.completed .badge_portrait:hover { background-image: url(https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/badges/badge13_2.png); }
 
 .badge14 .badge_portrait{ 					background-image: url(https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/badges/badge14_0.png); }
-.badge14 .completed .badge_portrait{ 		background-image: url(https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/badges/badge14_1.png); }
-.badge14 .completed .badge_portrait:hover { background-image: url(https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/badges/badge14_2.png); }
+.badge14.completed .badge_portrait{ 		background-image: url(https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/badges/badge14_1.png); }
+.badge14.completed .badge_portrait:hover { background-image: url(https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/badges/badge14_2.png); }
 
 .badge15 .badge_portrait{ 					background-image: url(https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/badges/badge15_0.png); }
-.badge15 .completed .badge_portrait{ 		background-image: url(https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/badges/badge15_1.png); }
-.badge15 .completed .badge_portrait:hover { background-image: url(https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/badges/badge15_2.png); }
+.badge15.completed .badge_portrait{ 		background-image: url(https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/badges/badge15_1.png); }
+.badge15.completed .badge_portrait:hover { background-image: url(https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/badges/badge15_2.png); }
 
 .badge16 .badge_portrait{ 					background-image: url(https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/badges/badge16_0.png); }
-.badge16 .completed .badge_portrait{ 		background-image: url(https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/badges/badge16_1.png); }
-.badge16 .completed .badge_portrait:hover { background-image: url(https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/badges/badge16_2.png); }
+.badge16.completed .badge_portrait{ 		background-image: url(https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/badges/badge16_1.png); }
+.badge16.completed .badge_portrait:hover { background-image: url(https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/badges/badge16_2.png); }
 
 .badge17 .badge_portrait{ 					background-image: url(https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/badges/badge17_0.png); }
-.badge17 .completed .badge_portrait{ 		background-image: url(https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/badges/badge17_1.png); }
-.badge17 .completed .badge_portrait:hover { background-image: url(https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/badges/badge17_2.png); }
+.badge17.completed .badge_portrait{ 		background-image: url(https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/badges/badge17_1.png); }
+.badge17.completed .badge_portrait:hover { background-image: url(https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/badges/badge17_2.png); }
 
 .badge18 .badge_portrait{ 					background-image: url(https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/badges/badge18_0.png); }
-.badge18 .completed .badge_portrait{ 		background-image: url(https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/badges/badge18_1.png); }
-.badge18 .completed .badge_portrait:hover { background-image: url(https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/badges/badge18_2.png); }
+.badge18.completed .badge_portrait{ 		background-image: url(https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/badges/badge18_1.png); }
+.badge18.completed .badge_portrait:hover { background-image: url(https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/badges/badge18_2.png); }
 
 .badge19 .badge_portrait{ 					background-image: url(https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/badges/badge19_0.png); }
-.badge19 .completed .badge_portrait{ 		background-image: url(https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/badges/badge19_1.png); }
-.badge19 .completed .badge_portrait:hover { background-image: url(https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/badges/badge19_2.png); }
+.badge19.completed .badge_portrait{ 		background-image: url(https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/badges/badge19_1.png); }
+.badge19.completed .badge_portrait:hover { background-image: url(https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/badges/badge19_2.png); }
 
 .badge20 .badge_portrait{ 					background-image: url(https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/badges/badge20_0.png); }
-.badge20 .completed .badge_portrait{ 		background-image: url(https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/badges/badge20_1.png); }
-.badge20 .completed .badge_portrait:hover { background-image: url(https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/badges/badge20_2.png); }
+.badge20.completed .badge_portrait{ 		background-image: url(https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/badges/badge20_1.png); }
+.badge20.completed .badge_portrait:hover { background-image: url(https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/badges/badge20_2.png); }
 
 .badge21 .badge_portrait{ 					background-image: url(https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/badges/badge21_0.png); }
-.badge21 .completed .badge_portrait{ 		background-image: url(https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/badges/badge21_1.png); }
-.badge21 .completed .badge_portrait:hover { background-image: url(https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/badges/badge21_2.png); }
+.badge21.completed .badge_portrait{ 		background-image: url(https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/badges/badge21_1.png); }
+.badge21.completed .badge_portrait:hover { background-image: url(https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/badges/badge21_2.png); }
 
 .badge22 .badge_portrait{ 					background-image: url(https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/badges/badge22_0.png); }
-.badge22 .completed .badge_portrait{ 		background-image: url(https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/badges/badge22_1.png); }
-.badge22 .completed .badge_portrait:hover { background-image: url(https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/badges/badge22_2.png); }
+.badge22.completed .badge_portrait{ 		background-image: url(https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/badges/badge22_1.png); }
+.badge22.completed .badge_portrait:hover { background-image: url(https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/badges/badge22_2.png); }
 
 .badge23 .badge_portrait{ 					background-image: url(https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/badges/badge23_0.png); }
-.badge23 .completed .badge_portrait{ 		background-image: url(https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/badges/badge23_1.png); }
-.badge23 .completed .badge_portrait:hover { background-image: url(https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/badges/badge23_2.png); }
+.badge23.completed .badge_portrait{ 		background-image: url(https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/badges/badge23_1.png); }
+.badge23.completed .badge_portrait:hover { background-image: url(https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/badges/badge23_2.png); }
 
 .badge24 .badge_portrait{ 					background-image: url(https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/badges/badge24_0.png); }
-.badge24 .completed .badge_portrait{ 		background-image: url(https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/badges/badge24_1.png); }
-.badge24 .completed .badge_portrait:hover { background-image: url(https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/badges/badge24_2.png); }
+.badge24.completed .badge_portrait{ 		background-image: url(https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/badges/badge24_1.png); }
+.badge24.completed .badge_portrait:hover { background-image: url(https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/badges/badge24_2.png); }
 
 .badge25 .badge_portrait{ 					background-image: url(https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/badges/badge25_0.png); }
-.badge25 .completed .badge_portrait{ 		background-image: url(https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/badges/badge25_1.png); }
-.badge25 .completed .badge_portrait:hover { background-image: url(https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/badges/badge25_2.png); }
+.badge25.completed .badge_portrait{ 		background-image: url(https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/badges/badge25_1.png); }
+.badge25.completed .badge_portrait:hover { background-image: url(https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/badges/badge25_2.png); }
 
 .badge26 .badge_portrait{ 					background-image: url(https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/badges/badge26_0.png); }
-.badge26 .completed .badge_portrait{ 		background-image: url(https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/badges/badge26_1.png); }
-.badge26 .completed .badge_portrait:hover { background-image: url(https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/badges/badge26_2.png); }
+.badge26.completed .badge_portrait{ 		background-image: url(https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/badges/badge26_1.png); }
+.badge26.completed .badge_portrait:hover { background-image: url(https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/badges/badge26_2.png); }
 
 .badge27 .badge_portrait{ 					background-image: url(https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/badges/badge27_0.png); }
-.badge27 .completed .badge_portrait{ 		background-image: url(https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/badges/badge27_1.png); }
-.badge27 .completed .badge_portrait:hover { background-image: url(https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/badges/badge27_2.png); }
+.badge27.completed .badge_portrait{ 		background-image: url(https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/badges/badge27_1.png); }
+.badge27.completed .badge_portrait:hover { background-image: url(https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/badges/badge27_2.png); }
 
 .badge28 .badge_portrait{ 					background-image: url(https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/badges/badge28_0.png); }
-.badge28 .completed .badge_portrait{ 		background-image: url(https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/badges/badge28_1.png); }
-.badge28 .completed .badge_portrait:hover { background-image: url(https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/badges/badge28_2.png); }
+.badge28.completed .badge_portrait{ 		background-image: url(https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/badges/badge28_1.png); }
+.badge28.completed .badge_portrait:hover { background-image: url(https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/badges/badge28_2.png); }
 
 .badge29 .badge_portrait{ 					background-image: url(https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/badges/badge29_0.png); }
-.badge29 .completed .badge_portrait{ 		background-image: url(https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/badges/badge29_1.png); }
-.badge29 .completed .badge_portrait:hover { background-image: url(https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/badges/badge29_2.png); }
+.badge29.completed .badge_portrait{ 		background-image: url(https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/badges/badge29_1.png); }
+.badge29.completed .badge_portrait:hover { background-image: url(https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/badges/badge29_2.png); }
 
 .badge30 .badge_portrait{ 					background-image: url(https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/badges/badge30_0.png); }
-.badge30 .completed .badge_portrait{ 		background-image: url(https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/badges/badge30_1.png); }
-.badge30 .completed .badge_portrait:hover { background-image: url(https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/badges/badge30_2.png); }
+.badge30.completed .badge_portrait{ 		background-image: url(https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/badges/badge30_1.png); }
+.badge30.completed .badge_portrait:hover { background-image: url(https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/badges/badge30_2.png); }
 
 .badge31 .badge_portrait{ 					background-image: url(https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/badges/badge31_0.png); }
-.badge31 .completed .badge_portrait{ 		background-image: url(https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/badges/badge31_1.png); }
-.badge31 .completed .badge_portrait:hover { background-image: url(https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/badges/badge31_2.png); }
+.badge31.completed .badge_portrait{ 		background-image: url(https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/badges/badge31_1.png); }
+.badge31.completed .badge_portrait:hover { background-image: url(https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/badges/badge31_2.png); }
 
 .badge32 .badge_portrait{ 					background-image: url(https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/badges/badge32_0.png); }
-.badge32 .completed .badge_portrait{ 		background-image: url(https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/badges/badge32_1.png); }
-.badge32 .completed .badge_portrait:hover { background-image: url(https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/badges/badge32_2.png); }
+.badge32.completed .badge_portrait{ 		background-image: url(https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/badges/badge32_1.png); }
+.badge32.completed .badge_portrait:hover { background-image: url(https://bb141a128cd284409977d9af35ae2447852ece59.googledrive.com/host/0B-FDzDtpfIQiZUJjdjk1aEoxU1E/images/badges/badge32_2.png); }
 
 /***
 * Old Module Page
