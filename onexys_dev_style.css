@@ -880,7 +880,14 @@
 .lifeattitle{
 	width: 825px;
 	height: 220px;
-	left: 25px;
+	left: 175px;
+}
+.lifeattitleshad{
+	width: 815px;
+	height: 220px;
+	left: 165px;
+	top: 30px;
+	background-color: rgb(31, 117, 208);
 }
 .onexys_styling.lifeoverride{
 	min-width: 1070px;
@@ -890,7 +897,7 @@
 	font-size: 180px;
 }
 .lifeatindex{
-	left: 910px;
+	left: 10px;
 	top: 10px;
 	padding-top: 10px;
 	border: 5px solid rgb(31, 117, 208);
@@ -905,8 +912,25 @@
 	height: 210px;
 	left: 10px;
 }
+.lifeatpacket{
+	left: 175px;
+	width: 850px;
+}
 .coach_name.lifeatcaption{
-	left: 10px;
+	margin-left: 30px;
+	width: 300px;
+}
+.lifeatdescription{
+	font-size: 15px;
+	line-height: 20px;
+	font-weight: normal;
+}
+.coach_photo.lifeatvid{
+	float: left;
+	width: 500px;
+	height: auto;
+	border: none;
+
 }
 .title_mod p {
 	font-size: 30px;
