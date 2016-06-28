@@ -304,7 +304,7 @@
   width: 92px;
   height: 65px;
   position: relative;
-  top: -3px;
+  top: -4px;
   left: 0px;
   z-index: -1;
 }
@@ -369,7 +369,7 @@
   color: rgb(31, 117, 208);
   font-weight: bold;
   font-size: 12px;
-  line-height: 19px;
+  line-height: 18px;
 }
 #leaderboard tbody {
   border-radius: 5px;
