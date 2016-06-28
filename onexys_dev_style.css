@@ -8,6 +8,7 @@
 	display: none !important;
 }
 
+
 .onexys_styling {
 	font-family: Helvetica;
 	color: rgb(31, 117, 208);
@@ -301,12 +302,11 @@
 }
 /* https://css-tricks.com/examples/ShapesOfCSS/ */
 #flag {
-  width: 92px;
+  position: absolute;
+  left: 7px;
+  bottom: -65px;
   height: 65px;
-  position: relative;
-  top: -5px;
-  left: 0px;
-  z-index: -1;
+  width: 92px;
 }
 
 #leaderboard {
