@@ -222,7 +222,7 @@
 	float: left;
 	padding: 0;
 	background-color: rgb(31, 117, 208) !important;
-	border: 2px solid rgb(31, 117, 208);
+	border: 1px solid rgb(31, 117, 208);
 	border-radius: 8px;
 }
 
@@ -304,7 +304,7 @@
   width: 92px;
   height: 65px;
   position: relative;
-  top: -4px;
+  top: -5px;
   left: 0px;
   z-index: -1;
 }
