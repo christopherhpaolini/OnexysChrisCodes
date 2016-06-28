@@ -275,7 +275,6 @@
 	position: relative;
 	margin-left: -12px;
 	left: 20px;
-	z-index: 100;
 
 	padding: 0px 6px;
 
@@ -307,6 +306,7 @@
   bottom: -65px;
   height: 65px;
   width: 92px;
+  z-index: -1;
 }
 
 #leaderboard {
