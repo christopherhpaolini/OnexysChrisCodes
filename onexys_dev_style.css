@@ -303,10 +303,9 @@
 #flag {
   position: absolute;
   left: 7px;
-  bottom: -65px;
+  bottom: -68.25px;
   height: 65px;
   width: 92px;
-  z-index: -1;
 }
 
 #leaderboard {
