@@ -315,10 +315,10 @@
 	padding-left: 0px !important;
 	padding-right: 0px !important;
 	padding-top: 0;
-	height: 125px;
+	height: 128px;
 }
 .leader_me {
-	border-top: 1px dashed white;
+	border-top: 1px dashed rgb(31,117,208);
 	color: white;
 	background-color: rgb(31,117,208);
 }
