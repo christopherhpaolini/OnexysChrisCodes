@@ -308,6 +308,15 @@
   width: 92px;
 }
 
+.lucky_bulldog {
+	height: 50px;
+	position: absolute;
+	top: -53.25px;
+	right: 0px;
+	cursor: pointer;
+	display: none;
+}
+
 #leaderboard {
 	margin-left: -3px;
 	width: 220px;
