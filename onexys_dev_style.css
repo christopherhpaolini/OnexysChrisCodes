@@ -319,10 +319,10 @@
 .luckybull{
 	position: absolute;
 	width: 120px;
-	height: 40px;
+	height: 30px;
 	text-align: right;
 	font-weight: bold;
-	top: 10px;
+	top: 20px;
 	font-size: 20px;
 	left: 520px;
 	background-color: rgb(31, 117, 208);
@@ -331,7 +331,7 @@
 .luckybull_image{
 	position: absolute;
 	left: -20px;
-	top: -10px;
+	top: -20px;
 	height: 50px;
 	width: auto;
 }
@@ -350,7 +350,7 @@
 	width: 100%;
 }
 .luckybull_text{
-	margin-top: 12px;
+	margin-top: 8px;
 	margin-right: 10px;
 }
 
