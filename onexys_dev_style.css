@@ -316,6 +316,43 @@
 	cursor: pointer;
 	display: none;
 }
+.luckybull{
+	position: absolute;
+	width: 120px;
+	height: 40px;
+	text-align: right;
+	font-weight: bold;
+	top: 10px;
+	font-size: 20px;
+	left: 520px;
+	background-color: rgb(31, 117, 208);
+	border-radius: 0px 8px 0px 0px; 
+}
+.luckybull_image{
+	position: absolute;
+	left: -20px;
+	top: -10px;
+	height: 50px;
+	width: auto;
+}
+.luckybull a:hover{
+	color: white;
+}
+.luckybull a:active{
+	color: white;
+}
+.luckybull a {
+	color: white;
+}
+.luckybull_banner{
+	position: absolute;
+	height: 100%;
+	width: 100%;
+}
+.luckybull_text{
+	margin-top: 12px;
+	margin-right: 10px;
+}
 
 #leaderboard {
 	margin-left: -3px;
