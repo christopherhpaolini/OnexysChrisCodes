@@ -903,10 +903,42 @@
 	height: calc(100% - 310px);
 	top: 300px;
 }
+.quicklinks.post_test_page{
+	width: 500px !important;
+	font-size: 18px;
+	line-height: 25px;
+	border: none;
+	padding-top: 0px;
+}
+.quicklinks.post_test_page a{
+	font-size: 18px;
+}
+.post_test_page img{
+	width: 100px;
+	height: 100px;
+	margin-left: -130px;
+	margin-top: -35px;
+	display: inline;
+	float: left;
+	position: relative;
+}
+.title_mod.post_test_page{
+	margin-left: 10px !important;
+}
 .title_mod {
 	display: inline-block;
 	padding: 10px 20px;
 	margin-left: -58px;
+}
+.post_test_first{
+	margin-top: -50px !important;
+}
+.post_test_list{
+	float: left;
+	display: inline;
+	margin-bottom: 100px !important;
+	position: relative;
+	width: 500px;
 }
 .lifeattitle{
 	width: 825px;
